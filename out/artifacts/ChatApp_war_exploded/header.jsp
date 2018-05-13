@@ -1,7 +1,7 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <header role="banner">
-<h1><span>Chat</span></h1>
+<h1><span>Blog</span></h1>
 <nav>
 <ul>
 </ul>
