@@ -8,6 +8,8 @@
 <jsp:include page="header.jsp">
     <jsp:param name="title" value="Chat" />
 </jsp:include>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/chatCss.css">
 <main>
     <div class="container">
         <h2>Welcome <span id="mainUser">${user.getUserId()}</span>!</h2>
@@ -28,7 +30,7 @@
                     </datalist>
                     </select>
                 </p>
-                <input type="button" class="btn btn-primary" id="chgStatusB" value="Change Status"/>
+                <input type="button" id="chgStatusB" value="Change Status"/>
             </div>
         </div>
 
@@ -41,7 +43,8 @@
                 <input type="button" class="btn btn-primary" id="addFriendB" value="Add this friend!">
                 <div class="mt-5">
                     <h3>Friendslist</h3>
-                    <table class="table">
+                    <input type="button" class="btn btn-primary" id="toggleFriendList" value="Show/Hide friendlist">
+                    <table class="table" id="tableFriendlist">
                         <thead>
                         <tr>
                             <th scope="col">Username</th>
@@ -55,13 +58,9 @@
             </div>
         </div>
     </div>
-
-
-
-
-
 </main>
-<script type="text/javascript" src="js/chat.js"></script>
+<script type="text/javascript" src="js/statusAndFriendlist.js"></script>
+
 
 <jsp:include page="footer.jsp">
     <jsp:param name="title" value="Home" />

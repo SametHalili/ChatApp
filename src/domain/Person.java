@@ -9,14 +9,20 @@ import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Person
 {
     private String userId;
     private String password;
+    @JsonIgnore
     private String salt;
+    private String email;
     private String firstName;
     private String lastName;
+    private String geslacht;
+    private int leeftijd;
     private UserStatus userStatus;
     @JsonIgnore
     private List<Person> friendList = new ArrayList<>();
@@ -32,16 +38,34 @@ public class Person
         setUserStatus(userStatus);
     }
 
-    public Person(String userId, String password, String salt,
-                  String firstName, String lastName, UserStatus userStatus)
+    public Person(String userId, String password, String firstName,
+                  String lastName, String email, String geslacht, int leeftijd, UserStatus userStatus)
+    {
+        setUserId(userId);
+        setHashedPassword(password);
+        setFirstName(firstName);
+        setLastName(lastName);
+        setEmail(email);
+        setGeslacht(geslacht);
+        setLeeftijd(leeftijd);
+        setUserStatus(userStatus);
+    }
+
+
+    public Person(String userId, String password, String salt, String firstName,
+                  String lastName, String email, String geslacht, int leeftijd, UserStatus userStatus)
     {
         setUserId(userId);
         setPassword(password);
         setSalt(salt);
         setFirstName(firstName);
         setLastName(lastName);
+        setEmail(email);
+        setGeslacht(geslacht);
+        setLeeftijd(leeftijd);
         setUserStatus(userStatus);
     }
+
 
     public Person()
     {
@@ -181,6 +205,24 @@ public class Person
         this.lastName = lastName;
     }
 
+    public void setEmail(String email) {
+        if (email.isEmpty()) {
+            throw new IllegalArgumentException("No id given");
+        }
+        String USERID_PATTERN = "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@"
+                + "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
+        Pattern p = Pattern.compile(USERID_PATTERN);
+        Matcher m = p.matcher(email);
+        if (!m.matches()) {
+            throw new IllegalArgumentException("Email not valid");
+        }
+        this.email = email;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
     public List<Person> getFriendList()
     {
         return friendList;
@@ -209,5 +251,33 @@ public class Person
     public void addFriend(Person person)
     {
         friendList.add(person);
+    }
+
+    public String getGeslacht()
+    {
+        return geslacht;
+    }
+
+    public void setGeslacht(String geslacht)
+    {
+        if (geslacht.isEmpty())
+        {
+            throw new IllegalArgumentException("No geslacht given");
+        }
+        this.geslacht = geslacht;
+    }
+
+    public int getLeeftijd()
+    {
+        return leeftijd;
+    }
+
+    public void setLeeftijd(int leeftijd)
+    {
+        if(leeftijd <= 0)
+        {
+            throw new IllegalArgumentException("No leeftijd given");
+        }
+        this.leeftijd = leeftijd;
     }
 }

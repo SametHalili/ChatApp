@@ -22,21 +22,30 @@
 		</ul>
 	</div>
 </c:if>
+		<c:if test="${!empty success}">
+			<div class="alert alert-success">
+				You have registered a new account!
+			</div>
+		</c:if>
+		<div class="card col-sm-10 mb-5 p-2">
+			<h3><a href="http://localhost:4200">Go to Angular website!</a></h3>
+		</div>
 		<div class="card col-sm-10 mb-5 p-2">
 			<h3>Login to go chat with other users</h3>
 			<form method="post" action="Controller?action=LogIn">
-				<p>
+				<div class="form-group">
 					<label for="username">Your username </label>
-					<input type="text" id="username" name="username" value="jan123">
-				</p>
-				<p>
+					<input type="text" id="username" name="username" value="">
+				</div>
+				<div class="form-group">
 					<label for="password">Your password</label>
-					<input type="password" id="password" name="password" value="t">
-				</p>
+					<input type="password" id="password" name="password" value="">
+				</div>
 				<p>
-					<input type="submit" id="loginbutton" value="Log in">
+					<input class="btn btn-primary" type="submit" id="loginbutton" value="Log in">
 				</p>
 			</form>
+			<a class="btn btn-primary" href="Controller?action=Register" id="registerButton">Register</a>
 		</div>
 
 

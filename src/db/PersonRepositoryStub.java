@@ -14,11 +14,14 @@ public class PersonRepositoryStub implements PersonRepository
 
     public PersonRepositoryStub()
     {
-        Person administrator = new Person("bibAdmin", "t", "Bib", "Liothekaris", UserStatus.OFFLINE);
+        Person administrator = new Person("bibAdmin", "t", "Bib", "Liothekaris",
+                "bib@ucll.be", "man", 25, UserStatus.OFFLINE);
         add(administrator);
-        Person jan = new Person("jan123", "t", "Jan", "Janssens", UserStatus.OFFLINE);
+        Person jan = new Person("jan123", "t", "Jan", "Janssens",
+                "jan@ucll.be" , "man", 19, UserStatus.OFFLINE);
         add(jan);
-        Person an = new Person("an555", "t", "An", "Cornelissen", UserStatus.OFFLINE);
+        Person an = new Person("an555", "t", "An", "Cornelissen",
+                "an@ucll.be", "vrouw", 20, UserStatus.OFFLINE);
         add(an);
     }
 
