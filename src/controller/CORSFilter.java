@@ -31,7 +31,7 @@ public class CORSFilter implements Filter
     {
 
         HttpServletRequest request = (HttpServletRequest) servletRequest;
-        System.out.println("CORSFilter HTTP Request: " + request.getMethod());
+        //System.out.println("CORSFilter HTTP Request: " + request.getMethod());
 
         ((HttpServletResponse) servletResponse).addHeader("Access-Control-Allow-Origin", "*");
         ((HttpServletResponse) servletResponse).addHeader("Access-Control-Allow-Headers", "*");

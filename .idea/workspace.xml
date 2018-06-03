@@ -7,50 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f0864e1-b7b1-4ad8-a0ff-fd1763c015a7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/WebContent/css/chatCss.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/js/statusAndFriendlist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/WEB-INF/classes/controller/CORSFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/WEB-INF/classes/controller/ChatServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/WEB-INF/classes/controller/Register.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/WEB-INF/classes/controller/RegisterConfirm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/css/chatCss.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/js/statusAndFriendlist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatApp/controller/CORSFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatApp/controller/ChatServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatApp/controller/Register.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChatApp/controller/RegisterConfirm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/CORSFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/ChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/RegisterConfirm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/ChatConversationsListRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/ChatConversationsListRepositoryStub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/ChatConversation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/ChatConversationsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/ChatConversationsListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/Message.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebContent/chat.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/chat.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/css/sample.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/css/sample.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/js/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/js/chat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/WEB-INF/classes/controller/AsyncController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/js/chat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/js/statusAndFriendlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/js/statusAndFriendlist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/WEB-INF/classes/controller/CORSFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/WEB-INF/classes/controller/CORSFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/WEB-INF/classes/controller/ChatServer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/WEB-INF/classes/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/WEB-INF/classes/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/WEB-INF/classes/controller/SyncController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/WEB-INF/classes/db/PersonRepositoryStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/WEB-INF/classes/db/PersonRepositoryStub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/WEB-INF/classes/domain/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/WEB-INF/classes/domain/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/chat.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/chat.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/css/sample.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/css/sample.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/js/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/js/chat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/controller/AsyncController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/js/chat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/js/statusAndFriendlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ChatApp_war_exploded/js/statusAndFriendlist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/controller/CORSFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/controller/CORSFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/controller/ChatServer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ChatApp/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/controller/SyncController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/db/PersonRepositoryStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/db/PersonRepositoryStub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/domain/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/domain/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/AsyncController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/SyncController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/PersonRepositoryStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/PersonRepositoryStub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/CORSFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/CORSFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ChatServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,64 +39,118 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LogIn.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/LogIn.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterConfirm.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/controller/RegisterConfirm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/domain/PersonService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-              <folding>
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#743#744#0" expanded="true" />
-                <element signature="e#795#796#0" expanded="true" />
-                <element signature="e#847#848#0" expanded="true" />
-                <element signature="e#1426#1427#0" expanded="true" />
-                <element signature="e#1465#1466#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/db/PersonRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1765">
-              <caret line="160" column="17" selection-start-line="160" selection-start-column="17" selection-end-line="160" selection-end-column="17" />
+            <state relative-caret-position="470">
+              <caret line="281" selection-start-line="281" selection-end-line="281" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
-                <element signature="e#833#834#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CORSFilter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/controller/CORSFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChatConversationsListService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/domain/ChatConversationsListService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="25" column="78" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChatConversationsListRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/db/ChatConversationsListRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Chat.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/Chat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="statusAndFriendlist.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/js/statusAndFriendlist.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-30">
+              <caret line="193" column="38" lean-forward="true" selection-start-line="193" selection-start-column="38" selection-end-line="193" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chat.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/chat.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/domain/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChatConversationsList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/domain/ChatConversationsList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="28" column="117" selection-start-line="28" selection-start-column="117" selection-end-line="28" selection-end-column="117" />
+              <folding>
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,8 +162,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="Interface" />
         <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -139,6 +172,9 @@
     <findStrings>
       <find>getFr</find>
       <find>butt</find>
+      <find>sess</find>
+      <find>system</find>
+      <find>removeEle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -147,10 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/controller/NotAuthorizedException.java" />
-        <option value="$PROJECT_DIR$/src/controller/ControllerFactory.java" />
-        <option value="$PROJECT_DIR$/src/db/DbException.java" />
-        <option value="$PROJECT_DIR$/src/db/PersonRepository.java" />
         <option value="$PROJECT_DIR$/src/domain/DomainException.java" />
         <option value="$PROJECT_DIR$/src/domain/Role.java" />
         <option value="$PROJECT_DIR$/src/domain/Status.java" />
@@ -171,7 +203,6 @@
         <option value="$PROJECT_DIR$/WebContent/article5.jsp" />
         <option value="$PROJECT_DIR$/WebContent/article3.jsp" />
         <option value="$PROJECT_DIR$/WebContent/js/blog.js" />
-        <option value="$PROJECT_DIR$/src/controller/ChatServer.java" />
         <option value="$PROJECT_DIR$/WebContent/js/chat.js" />
         <option value="$PROJECT_DIR$/WebContent/css/chatCss.css" />
         <option value="$PROJECT_DIR$/src/controller/CreateUser.java" />
@@ -185,13 +216,22 @@
         <option value="$PROJECT_DIR$/src/controller/RegisterConfirm.java" />
         <option value="$PROJECT_DIR$/src/controller/AsyncController.java" />
         <option value="$PROJECT_DIR$/src/controller/SyncController.java" />
-        <option value="$PROJECT_DIR$/WebContent/js/statusAndFriendlist.js" />
         <option value="$PROJECT_DIR$/src/db/PersonRepositoryStub.java" />
         <option value="$PROJECT_DIR$/src/domain/PersonService.java" />
         <option value="$PROJECT_DIR$/WebContent/index.jsp" />
         <option value="$PROJECT_DIR$/WebContent/css/sample.css" />
-        <option value="$PROJECT_DIR$/WebContent/chat.jsp" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/domain/ChatConversationListService.java" />
+        <option value="$PROJECT_DIR$/src/db/ChatConversationsListRepository.java" />
+        <option value="$PROJECT_DIR$/src/controller/ChatServer.java" />
+        <option value="$PROJECT_DIR$/WebContent/chat.jsp" />
+        <option value="$PROJECT_DIR$/src/domain/ChatConversationsListService.java" />
+        <option value="$PROJECT_DIR$/src/domain/ChatConversation.java" />
+        <option value="$PROJECT_DIR$/src/domain/ChatConversationsList.java" />
+        <option value="$PROJECT_DIR$/src/db/ChatConversationsListRepositoryStub.java" />
+        <option value="$PROJECT_DIR$/src/domain/Message.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/WebContent/js/statusAndFriendlist.js" />
         <option value="$PROJECT_DIR$/src/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/controller/CORSFilter.java" />
       </list>
@@ -210,21 +250,27 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="281" />
-    <option name="y" value="48" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-8" />
+    <option name="width" value="976" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,6 +288,18 @@
               <item name="ChatApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChatApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChatApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChatApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChatApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ChatApp" type="b2602c69:ProjectViewProjectNode" />
@@ -270,14 +328,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ChatAppAngular" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -346,8 +403,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="ChatApp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.11" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+    <configuration name="chatapp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.11" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.8.0_101\jre">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="ChatApp:war exploded">
@@ -357,7 +413,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_GTW_Week02_Synchroon_LoginLogout_3" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ChatApp_3" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -365,7 +421,7 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="58551" />
+        <option name="DEBUG_PORT" value="58465" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -442,14 +498,22 @@
       <workItem from="1526338354193" duration="1056000" />
       <workItem from="1526343123893" duration="8858000" />
       <workItem from="1526400355671" duration="5841000" />
-      <workItem from="1526469517145" duration="9547000" />
+      <workItem from="1526469517145" duration="10371000" />
+      <workItem from="1526640382366" duration="722000" />
+      <workItem from="1526648459401" duration="348000" />
+      <workItem from="1526825839779" duration="1937000" />
+      <workItem from="1526916440565" duration="602000" />
+      <workItem from="1526984568827" duration="13322000" />
+      <workItem from="1526998908530" duration="78000" />
+      <workItem from="1527966037246" duration="1227000" />
+      <workItem from="1528030812724" duration="7473000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83186000" />
+    <option name="totallyTimeSpent" value="109719000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -463,16 +527,16 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.16515152" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="right" id="CDI" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="CDI" order="4" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="JSF" order="4" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="JSF" order="4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -480,23 +544,23 @@
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32897604" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32897604" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" auto_hide="true" x="66" y="312" width="1789" height="395" id="Run" order="2" type="WINDOWED" visible="true" weight="0.36819172" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32897604" />
+      <window_info anchor="bottom" auto_hide="true" x="52" y="323" width="1789" height="401" id="Run" order="2" type="WINDOWED" visible="true" weight="0.36819172" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17270789" />
-      <window_info anchor="right" id="Bean Validation" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18230277" />
+      <window_info anchor="right" id="Bean Validation" order="4" weight="0.32995737" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Learn" order="2" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.16515152" />
@@ -547,55 +611,11 @@
       <option name="time" value="6" />
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/controller/ControllerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/exception.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ChatApp.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/DomainException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="25" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/DbException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/RequestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/NotAuthorizedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/ControllerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/footer.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -666,13 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/ChatServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/head.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -683,25 +696,11 @@
     <entry file="file://$PROJECT_DIR$/src/controller/CreateUser.java" />
     <entry file="file://$PROJECT_DIR$/src/db/GebruikerAngularRepo.java" />
     <entry file="file://$PROJECT_DIR$/src/db/GebruikerAngularRepoStub.java" />
-    <entry file="file://$PROJECT_DIR$/WebContent/js/blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/GebruikerAngular.java" />
     <entry file="file://$PROJECT_DIR$/src/controller/LogOut.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/Chat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -733,79 +732,7 @@
           <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/js/statusAndFriendlist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1700">
-          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/js/chat.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1175">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/PersonRepositoryStub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/PersonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-          <folding>
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#1426#1427#0" expanded="true" />
-            <element signature="e#1465#1466#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/LogIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/chat.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -813,13 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="269" column="37" selection-start-line="269" selection-start-column="37" selection-end-line="269" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/PersonRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -844,16 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/CORSFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/css/chatCss.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -868,22 +778,185 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/controller/RegisterConfirm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1765">
-          <caret line="160" column="17" selection-start-line="160" selection-start-column="17" selection-end-line="160" selection-end-column="17" />
+        <state relative-caret-position="1200">
+          <caret line="105" column="13" lean-forward="true" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/LogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/PersonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/PersonRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/ChatServer.java" />
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/js/blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/js/chat.js" />
+    <entry file="file://$PROJECT_DIR$/src/db/PersonRepositoryStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/Chat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/ChatConversationsListRepositoryStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/RegisterConfirm.java">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="15913" column="17" selection-start-line="15913" selection-start-column="17" selection-end-line="15913" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/ChatConversationsListService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="78" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/ChatConversation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/chat.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
-          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/js/statusAndFriendlist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="193" column="38" lean-forward="true" selection-start-line="193" selection-start-column="38" selection-end-line="193" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/ChatConversationsList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="28" column="117" selection-start-line="28" selection-start-column="117" selection-end-line="28" selection-end-column="117" />
+          <folding>
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/ChatConversationsListRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="281" selection-start-line="281" selection-end-line="281" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/CORSFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

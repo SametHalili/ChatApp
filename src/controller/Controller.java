@@ -11,18 +11,18 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import domain.Person;
-import domain.PersonService;
-import domain.UserStatus;
+import domain.*;
 
 @WebServlet("/Controller")
 public class Controller extends HttpServlet
 {
     private PersonService model = new PersonService();
+    private ChatConversationsListService chatModel = new ChatConversationsListService();
     private ControllerFactory controllerFactory = new ControllerFactory();
 
     public Controller()
@@ -110,7 +110,22 @@ public class Controller extends HttpServlet
                 case "updateUser":
                     putUser(request, response);
                     break;
+                case "chatConversationSend":
+                    chatConversationSend(request, response);
+                    break;
+                case "chatConversationGet":
+                    chatConversationGet(request, response);
+                    break;
+                case "chatConversationGetAll":
+                    chatConversationGetAll(request, response);
+                    break;
             }
+    }
+
+    public String toJSON(Object object) throws JsonProcessingException
+    {
+        ObjectMapper mapper = new ObjectMapper();
+        return mapper.writeValueAsString(object);
     }
 
     private void putUser(HttpServletRequest request, HttpServletResponse response) throws IOException
@@ -177,12 +192,6 @@ public class Controller extends HttpServlet
         }
     }
 
-    public String toJSON(Object object) throws JsonProcessingException
-    {
-        ObjectMapper mapper = new ObjectMapper();
-        return mapper.writeValueAsString(object);
-    }
-
 
     private void getUser(HttpServletRequest request, HttpServletResponse response) throws IOException
     {
@@ -235,5 +244,48 @@ public class Controller extends HttpServlet
             UserStatus newStatus = UserStatus.strToStatus(request.getParameter("newStatus"));
             model.getPerson(person.getUserId()).setUserStatus(newStatus);
         }
+    }
+
+    private void chatConversationSend(HttpServletRequest request, HttpServletResponse response)
+    {
+        HttpSession s = request.getSession();
+
+        Person person = (Person) s.getAttribute("user");
+        String userId1 = person.getUserId();
+        String userId2 = request.getParameter("userId");
+        String msg = request.getParameter("msg");
+
+        try
+        {
+            chatModel.getChatConversationList().getChatConversation(userId1, userId2).addMsg(new Message(userId1, msg));
+        }
+        catch(DomainException e)
+        {
+            System.out.println("Conversation did not exist, creating new one");
+            chatModel.getChatConversationList().addChatConversation(new ChatConversation(userId1, userId2));
+            chatModel.getChatConversationList().getChatConversation(userId1, userId2).addMsg(new Message(userId1, msg));
+        }
+    }
+
+    private void chatConversationGet(HttpServletRequest request, HttpServletResponse response) throws IOException
+    {
+        HttpSession s = request.getSession();
+
+        Person person = (Person) s.getAttribute("user");
+        String userId = person.getUserId();
+        ChatConversationsList chatConvs = chatModel.getChatConversationListById(userId);
+
+        String convJSON = toJSON(chatConvs);
+        response.setContentType("application/json");
+        convJSON = convJSON.substring(0, convJSON.length() - 1);
+        convJSON+=",\"loggedin\":\""+userId+"\"}";
+        response.getWriter().write(convJSON);
+    }
+
+    private void chatConversationGetAll(HttpServletRequest request, HttpServletResponse response) throws IOException
+    {
+        String convJSON = toJSON(chatModel.getChatConversationList());
+        response.setContentType("application/json");
+        response.getWriter().write(convJSON);
     }
 }

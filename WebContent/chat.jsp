@@ -33,30 +33,43 @@
                 <input type="button" id="chgStatusB" value="Change Status"/>
             </div>
         </div>
-
-        <div class="card col-sm-10 mb-5 p-2">
-            <div class="card-body">
-                <h2>Friends</h2>
-                <h3>Add friend</h3>
-                <p>Write the name of the friend you want to add:</p>
-                <input type="text" name="Friend" id="newFriend">
-                <input type="button" class="btn btn-primary" id="addFriendB" value="Add this friend!">
-                <div class="mt-5">
-                    <h3>Friendslist</h3>
-                    <input type="button" class="btn btn-primary" id="toggleFriendList" value="Show/Hide friendlist">
-                    <table class="table" id="tableFriendlist">
-                        <thead>
-                        <tr>
-                            <th scope="col">Username</th>
-                            <th scope="col">Status</th>
-                        </tr>
-                        </thead>
-                        <tbody id="friendList">
-                        </tbody>
-                    </table>
+        <div class="row">
+            <div class="card col-sm-6 mb-5 p-2">
+                <div class="card-body">
+                    <h2>Friends</h2>
+                    <h3>Add friend</h3>
+                    <p>Write the name of the friend you want to add:</p>
+                    <input type="text" name="Friend" id="newFriend">
+                    <input type="button" class="btn btn-primary" id="addFriendB" value="Add this friend!">
+                    <div class="mt-5">
+                        <h3>Friendslist</h3>
+                        <input type="button" class="btn btn-primary" id="toggleFriendList" value="Show/Hide friendlist">
+                        <table class="table" id="tableFriendlist">
+                            <thead>
+                            <tr>
+                                <th scope="col">Username</th>
+                                <th scope="col">Status</th>
+                                <th scope="col">Chat</th>
+                            </tr>
+                            </thead>
+                            <tbody id="friendList">
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
+
+            <div class="card col-sm-6 mb-5 p-2">
+                <div class="card-body">
+                    <h3>Chatbox</h3>
+                    <div id="chatBody" class="mt-5">
+
+                    </div>
+                </div>
+            </div>
+
         </div>
+
     </div>
 </main>
 <script type="text/javascript" src="js/statusAndFriendlist.js"></script>
